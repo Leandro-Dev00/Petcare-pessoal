@@ -1,0 +1,55 @@
+
+/* Seção Sobre Nós */
+.sobre {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 30px;
+    min-height: 500px;
+    background-color: #F5F0E6;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+/* Título principal */
+.sobre h1 {
+    font-size: 38px;
+    color: #2E6B4E;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Títulos Missão, Visão e Valores */
+.sobre h2 {
+    font-size: 26px;
+    color: #2E6B4E;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+/* Textos da página */
+.sobre p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #333333;
+    text-align: justify;
+}
+
+/* Adaptação para celulares */
+@media (max-width: 768px) {
+    .sobre {
+        padding: 40px 20px;
+    }
+
+    .sobre h1 {
+        font-size: 30px;
+    }
+
+    .sobre h2 {
+        font-size: 22px;
+    }
+
+    .sobre p {
+        font-size: 16px;
+        text-align: left;
+    }
+}
